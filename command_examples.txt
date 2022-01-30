@@ -1,3 +1,7 @@
 #Downloads all comics avalable for "Department of truth"
 #Will loop from 1 to 15 downloading comics
+
 x=1; while [ $x -le 15 ]; do python3 cli.py -i https://www.comicextra.com/the-department-of-truth/chapter-$x; $(( x++ )); done
+
+#Supported websites
+supported links: https://github.com/Xonshiz/comic-dl/blob/master/Supported_Sites.md
